@@ -47,6 +47,7 @@ pipeline {
     stage('Deploy to PROD') {
       steps {
         echo 'prod'
+        input 'GO NO GO change mananager'
       }
     }
   }
